@@ -69,6 +69,10 @@ body{
     padding: 0 25em 0 25em;
 }
 
+.grid-section div{
+    margin: 0.2em;
+}
+
 .box-one{      
     background-color: white;
 }
