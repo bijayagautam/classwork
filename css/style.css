@@ -1,0 +1,140 @@
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    padding: 1em 1em 1em 1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #333333
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color:#333333;
+    line-height: 1.4rem;
+}
+
+.main-heading{
+    text-align: center;
+    padding: 1em 0 0 0;
+    height: 40vh;
+    background-image: url(/img/header-bg.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    color: white;
+}
+
+.p-main-heading{
+    padding: 2em 1em 1em 1em;
+}
+
+.read-more-button{
+    background-color: #333333;
+    color: white;
+    padding: 1em 1em 1em 1em;
+    border-color: #555555;
+
+}
+
+.experience-section{
+    text-align: center;
+    padding: 1em 0 0 0;
+    background-color: gainsboro;
+    height: 20vh;
+    color: black;
+}
+
+.p-experience-section{
+    padding: 2em 1em 1em 1em;
+}
+
+.grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 25em 0 25em;
+}
+
+.box-one{      
+    background-color: white;
+}
+
+.box-two{  
+    background-color: white;
+
+}
+
+.box-three{
+    background-color: white;
+
+}
+
+.box-one > h3{
+    padding: 1em 0 0 0;
+}
+.box-two > h3{
+    padding: 1em 0 0 0;
+}
+.box-three > h3{
+    padding: 1em 0 0 0;
+}
+
+.contact-detail-grid-section{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.employers{
+    background-color: #2690d4;
+    color: white;
+    text-align: center;
+    padding: 2em 0 2em 2em;
+}
+
+.contact{
+    background-color: rgb(239, 245, 248);
+    color: rgb(7, 6, 6);
+    text-align: center;
+    padding: 2em 0 2em 2em;
+}
+
+.main-footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: black;
+    color: white;
+    padding: 2em 0 2em 2em;
+}
+
+.left-footer{
+    text-align: center;
+}
+
+.right-footer{
+    text-align: center;
+    padding: 2em;
+}
+
+.social{
+    display: inline-block;
+    padding: 0 4em 0 4em;
+    font-size: 1.5em;
+}
+
+.right-footer > i{
+    color: white;
+}
